@@ -86,7 +86,11 @@ class DoublyLinkedList {
         end = null
         length = 0
     }
-
+    /**
+    * Checks whether this list contains no elements.
+    *
+    * @return true if the list is empty, false otherwise.
+    */
     fun isEmpty(): Boolean {
         return begin == null && end == null && length == 0
     }
