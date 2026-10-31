@@ -86,6 +86,7 @@ class DoublyLinkedList {
         end = null
         length = 0
     }
+
     /**
      * Checks whether this list contains no elements.
      *
